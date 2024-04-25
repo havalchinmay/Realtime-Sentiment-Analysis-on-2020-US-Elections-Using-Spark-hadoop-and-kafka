@@ -1,6 +1,7 @@
 # Realtime-Sentiment-Analysis-on-2020-US-Elections-Using-Spark-hadoop-and-kafka
 
-*** Dataset ***
+***Dataset***
+https://www.kaggle.com/datasets/manchunhui/us-election-2020-tweets
 
 ***Architecture***
 
