@@ -6,7 +6,8 @@ https://www.kaggle.com/datasets/manchunhui/us-election-2020-tweets
 
 ***Architecture:***
 
-DIAGRAM
+![flow_diag](https://github.com/27rahulsingh/Realtime-Sentiment-Analysis-on-2020-US-Elections-Using-Spark-hadoop-and-kafka/assets/105168633/f1b9be39-21a2-4e7e-b16f-797d14563161)
+
 
 ***Work flow explanation***
 
