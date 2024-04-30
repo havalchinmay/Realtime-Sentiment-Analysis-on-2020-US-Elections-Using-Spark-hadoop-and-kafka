@@ -6,8 +6,7 @@ https://www.kaggle.com/datasets/manchunhui/us-election-2020-tweets
 
 ***Architecture:***
 
-![Mini Project colorful1 drawio](https://github.com/havalchinmay/Realtime-Sentiment-Analysis-on-2020-US-Elections-Using-Spark-hadoop-and-kafka/assets/125662714/738869f1-c747-4cf7-966d-0ee0fb58a89c)
-
+<img src="https://github.com/havalchinmay/Realtime-Sentiment-Analysis-on-2020-US-Elections-Using-Spark-hadoop-and-kafka/assets/125662714/738869f1-c747-4cf7-966d-0ee0fb58a89c" alt="Architecture" width="50%">
 
 ***Work flow explanation***
 
