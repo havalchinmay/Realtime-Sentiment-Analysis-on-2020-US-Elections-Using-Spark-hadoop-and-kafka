@@ -1,6 +1,6 @@
 # Realtime-Sentiment-Analysis-on-2020-US-Elections-Using-Spark-hadoop-and-kafka
 ***Team Members:***
-Ayush Jain
+Ayush Jain  
 Chinmay Haval
 Milind Murmu
 Rahul Singh
