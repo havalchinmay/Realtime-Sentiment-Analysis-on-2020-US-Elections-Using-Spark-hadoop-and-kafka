@@ -1,13 +1,52 @@
 # Realtime-Sentiment-Analysis-on-2020-US-Elections-Using-Spark-hadoop-and-kafka
 ***Team Members:***
-Ayush Jain  
-Chinmay Haval
-Milind Murmu
-Rahul Singh
+- Ayush Jain  
+- Chinmay Haval 
+- Milind Murmu
+- Rahul Singh
+    
 ***Dataset:***
 
 https://www.kaggle.com/datasets/manchunhui/us-election-2020-tweets
 
+### Prerequisites
+- Python 3.x
+- Apache Spark
+- Kafka
+- 
+### Setting Up the Environment
+1. **Create a Hadoop Spark Cluster**:
+   - Follow the instructions to set up a Hadoop Spark cluster.
+   - 4 node cluster was made to run this project
+
+2. **Setup Kafka Server**:
+   - Install and configure Kafka with a single broker.
+   - Create two topics named 'trump' and 'biden'.
+
+3. **Download Dataset**:
+   - Download the Twitter dataset and place it in the `data` folder of this repository.
+
+### Running the Project
+1. **Run the Spark Consumer**:
+   - Open and execute the `spark_streaming.ipynb` notebook to start the Spark streaming application for sentiment analysis.
+
+2. **Start Streaming Tweets**:
+   - Run the `tweets_producer.ipynb` notebook to start streaming tweets into Kafka from the dataset.
+
+3. **Visualize the Data**:
+   - Execute the `testPlot.py` and `testmap.py` scripts to visualize the sentiment analysis results using Matplotlib and GeoPandas.
+
+### Project Structure
+- `data/`: Contains the Twitter dataset.
+- `spark_streaming.ipynb`: Spark streaming application for sentiment analysis.
+- `tweets_producer.ipynb`: Kafka producer to stream tweets into Kafka.
+- `testPlot.py`: Script to visualize sentiment analysis results with a bar graph.
+- `testmap.py`: Script to visualize sentiment analysis results on a US state map.
+
+### References
+- [Apache Spark Documentation](https://spark.apache.org/docs/latest/index.html)
+- [Kafka Documentation](https://kafka.apache.org/documentation/)
+  
 ***Architecture:***
 
 <img src="https://github.com/havalchinmay/Realtime-Sentiment-Analysis-on-2020-US-Elections-Using-Spark-hadoop-and-kafka/assets/125662714/738869f1-c747-4cf7-966d-0ee0fb58a89c" alt="Architecture" width="50%">
