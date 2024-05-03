@@ -1,11 +1,11 @@
 # Realtime-Sentiment-Analysis-on-2020-US-Elections-Using-Spark-hadoop-and-kafka
-***Team Members:***
+### Team Members:
 - Ayush Jain  
 - Chinmay Haval 
 - Milind Murmu
 - Rahul Singh
     
-***Dataset:***
+**Dataset:**
 
 https://www.kaggle.com/datasets/manchunhui/us-election-2020-tweets
 
@@ -47,11 +47,11 @@ https://www.kaggle.com/datasets/manchunhui/us-election-2020-tweets
 - [Apache Spark Documentation](https://spark.apache.org/docs/latest/index.html)
 - [Kafka Documentation](https://kafka.apache.org/documentation/)
   
-***Architecture:***
+**Architecture:**
 
 <img src="https://github.com/havalchinmay/Realtime-Sentiment-Analysis-on-2020-US-Elections-Using-Spark-hadoop-and-kafka/assets/125662714/738869f1-c747-4cf7-966d-0ee0fb58a89c" alt="Architecture" width="50%">
 
-***Work flow explanation***
+**Work flow explanation**
 
 The project aimed to develop a real-time sentiment analysis pipeline for tweets related to the 2020 US presidential election, specifically focusing on the candidates Donald Trump and Joe Biden. The pipeline was built using Apache Spark and leveraged various other technologies, such as Apache Kafka, Spark NLP, and data visualization libraries like Matplotlib and Geopandas.
 
