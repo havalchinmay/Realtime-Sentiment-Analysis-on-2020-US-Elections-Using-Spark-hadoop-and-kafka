@@ -13,7 +13,7 @@ https://www.kaggle.com/datasets/manchunhui/us-election-2020-tweets
 - Python 3.x
 - Apache Spark
 - Kafka
-- 
+  
 ### Setting Up the Environment
 1. **Create a Hadoop Spark Cluster**:
    - Follow the instructions to set up a Hadoop Spark cluster.
